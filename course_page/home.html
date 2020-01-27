@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>CSI 3140 2020 Winter WWW Structures, Techniques and Standards</title>
+    <link rel="stylesheet" href="base.css">
   </head>
   <body>
     <h1> CSI 3140 Winter 2020 </h1>
@@ -17,7 +18,7 @@
     </p>
     <h3> Prerequisites </h3>
     <a href="https://catalogue.uottawa.ca/en/courses/csi/"> CSI 2110, CSI 2132 </a>
-
+    <h3>Course Info</h3>
     <table>
       <tr>
         <th>Professor</th>
@@ -59,7 +60,94 @@
         </td>
       </tr>
     </table>
-
-
+    <h3>Classes</h3>
+    <table>
+      <tr>
+        <th>Activity</th>
+        <th>Day</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>LEC</td>
+        <td>
+          <p>Tuesday 10:00am-11:20am</p>
+          <p>Thursday 8:30qm-9:50am</p>
+        </td>
+        <td>
+          <a href="http://www.classfind.com/ottawa/room/CBYB205.html">CBY B205</a>
+        </td>
+      </tr>
+      <tr>
+        <td>LAB</td>
+        <td>Monday 4:00pm-5:20pm</td>
+        <td>
+          <a href="http://www.classfind.com/ottawa/room/CBYB02.html">CBY B02</a>
+        </td>
+      </tr>
+      <tr>
+        <td>TUT</td>
+        <td>Tuesday 8:30am-9:50am</td>
+        <td>
+          <a href="http://classfind.com/ottawa/room/LPR285">LPR 285</a>
+        </td>
+      </tr>
+    </table>
+    <h2>Evaluation</h2>
+    <table>
+      <tr>
+        <th>Components</th>
+        <th>Weight</th>
+      </tr>
+      <tr>
+        <td>Project</td>
+        <td>30%</td>
+      </tr>
+      <tr>
+        <td>Tutoriels</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <td>Labs</td>
+        <td>5%</td>
+      </tr>
+      <tr>
+        <td>Midterm</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td>Final</td>
+        <td>40%</td>
+      </tr>
+    </table>
+    <h4>Conditions</h4>
+    <pre>
+      Exam={
+        if Midterm<50% or Midterm > Final:
+          Midterm x 0.2 + Final x 0.4
+        else:
+          Final x 0.6
+      }
+      FinalGrade={
+        if Exam<50% :
+          Exam
+        else:
+          0.6 x Exam+
+          0.05 x Labs+
+          0.05 X Tut+
+          0.3 x Project
+      }
+    </pre>
+    <h2>Course Project</h2>
+    <p>
+      Thorughout the semester you will build a web application in groups of 2(max3). It will bw divided into 5 deliverables
+      each worth 6%.<br>
+      The Project is a mandatory components of the course.<br>
+      Late submit will be accepted up to 24 hours after the due date with a 30% penalty
+    </p>
+    <h2>Labs</h2>
+    <p>
+      There will be 10 Labs. Each worth 0.5% (total 5%).<br>
+      If you don't finish the lab during the alotted time, you can you it to the TA during the next lab(and only the next lab).
+    </p>
   </body>
 </html>
