@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yahtzee</title>
+    <link type="text/css" rel="stylesheet" href="dice.css">
+    <script type="text/javascript" src="dice.js"></script>
+  </head>
+  <body>
+    <div class="body-left">
+      <div class="dice-group">
+        <div class="dice-container">
+          <div id="die01"></div>
+          <input type="checkbox" class="checkbox-container" id="dice1">DICE 1</input>
+        </div>
+        <div class="dice-container">
+          <div id="die02"></div>
+          <input type="checkbox" class="checkbox-container" id="dice2">DICE 2</input>
+        </div>
+        <div class="dice-container">
+          <div id="die03"></div>
+          <input type="checkbox" class="checkbox-container" id="dice3">DICE 3</input>
+        </div>
+        <div class="dice-container">
+          <div id="die04"></div>
+          <input type="checkbox" class="checkbox-container" id="dice4">DICE 4</input>
+        </div>
+        <div class="dice-container">
+          <div id="die05"></div>
+          <input type="checkbox" class="checkbox-container" id="dice5">DICE 5</input>
+        </div>
+      </div>
+
+      <button id="roller">Roll</button>
+      <script type="text/javascript" src="events.js"></script>
+      <button id="score">score</button>
+      <script type="text/javascript" src="events.js"></script>
+      <p id="turn">This is turns</p>
+    </div>
+    <div class="body-right">
+      <table>
+        <th>Combination</th>
+        <th>Score</th>
+        <tr>
+          <th>Ones</th>
+        </tr>
+        <tr>
+          <th>Twos</th>
+        </tr>
+        <tr>
+          <th>Threes</th>
+        </tr>
+        <tr>
+          <th>Fours</th>
+        </tr>
+        <tr>
+          <th>Fives</th>
+        </tr>
+        <tr>
+          <th>Sixs</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
